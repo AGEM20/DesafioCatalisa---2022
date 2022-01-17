@@ -1,0 +1,80 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RickMorty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Seja Bem vindo!!</h1>
+    <main>
+        <section>
+            <button id="botao">Clik aqui e Conheça Personagens!</button>
+            <div class="row">
+                <div class="column">
+                    <img id="img1" src="https://bit.ly/3GzQlcJ"
+                        alt="Imagem de avatar padrão: um busto em branco envolto por um círculo cinza"
+                        style="width:100%">
+                    <ul id="detalhes-container">
+                        <li><b>Nome</b>: <p id="nome"></p>
+                        </li>
+                        <li><b>Tipo</b>: <p id="especie"></p>
+                        </li>
+                        <li><b>Status</b>: <p id="status"></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img id=img2 src="https://bit.ly/3GzQlcJ"
+                        alt="Imagem de avatar padrão: um busto em branco envolto por um círculo cinza"
+                        style="width:100%">
+                    <ul id="detalhes-container">
+                        <li><b>Nome</b>: <p id="nome2"></p>
+                        </li>
+                        <li><b>Tipo</b>: <p id="especie2"></p>
+                        </li>
+                        <li><b>Status</b>: <p id="status2"></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img id=img3 src="https://bit.ly/3GzQlcJ"
+                        alt="Imagem de avatar padrão: um busto em branco envolto por um círculo cinza"
+                        style="width:100%">
+                    <ul id="detalhes-container">
+                        <li><b>Nome</b>: <p id="nome3"></p>
+                        </li>
+                        <li><b>Tipo</b>: <p id="especie3"></p>
+                        </li>
+                        <li><b>Status</b>: <p id="status3"></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
